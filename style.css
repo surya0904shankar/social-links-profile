@@ -1,0 +1,96 @@
+
+
+body{
+background-color: hsl(0, 0%, 8%);
+display: flex;
+flex-direction: column;
+font-size: 14px;
+}
+.container{
+    
+    display: flex;
+    
+    flex-direction:column ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    align-items: center;
+    padding: 50px;
+    background-color:  hsl(0, 0%, 12%);
+    height: 70%;
+}
+.image{
+    
+    border-radius: 50px;
+}
+h1{
+    margin-bottom: 10px;
+    font-family: Inter;
+    color:  hsl(0, 0%, 100%);
+}
+.country{
+    margin: 0%;
+    font-size: 14px;
+     color:  hsl(75, 94%, 57%);
+     font-weight: 600;
+     font-family: Inter;
+}
+.description{
+    font-weight: 600;
+    font-family: Inter;
+    color:  hsl(0, 0%, 100%);
+
+}
+.links{
+     
+
+    align-items: center;
+    
+}
+ul{
+    padding: 0px;
+}
+
+li{
+    
+    align-items: center;
+    list-style: none;
+
+    
+}
+
+li a{
+    
+    margin-bottom: 20px;
+    text-decoration: none;
+  display: block;
+  color: white;
+  padding: 1.1em 0.4em;
+  
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  width: 300px;
+  font-size: 0.8em;
+  font-family: Inter;
+  font-weight: 700;
+  text-align: center;
+    
+}
+
+li a:hover  {
+
+    background-color: hsl(75, 94%, 57%);
+}
+li a{
+    display: block;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution{
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
